@@ -2,5 +2,7 @@ fun main() {
     println("Hello World!");
 
     val nome = "Gabriel";
-    var idade = 22;
+    val idade = 22;
+
+    println(idade);
 }
