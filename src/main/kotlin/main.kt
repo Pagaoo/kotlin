@@ -1,6 +1,7 @@
 // var é uma palavra reservada que remete a um dado que pode ser mudado durante o programa.
 // val é uma palavra reservada que remete a um dado imutavel.
 
+// Quando a função não tem 'fun calcBonus(a: Int): tipoDeDado' é pq não retorna nada
 fun calcBonus(a: Int, b: Int, c: Int){
     println("Meu bônus é: ${a + b * c * 2}")
 }
