@@ -10,6 +10,13 @@ fun hello(nome: String) : String{
     return "Hello $nome"
 }
 
+// Quando há apenas uma intrução na função, pode fazer uma função em linha unica
+fun hello2(nome: String) = "Olá, $nome"
+// Também pode haver a especificação do tipo de retorno
+//fun hello2(nome: String) : String = "Olá, $nome"
+
+fun soma(a: Int, b: Int) : Int = a + b
+
 fun main() {
     println("Hello World!");
 
@@ -20,6 +27,8 @@ fun main() {
 
     calcBonus(a,b,c)
     println(hello(nome))
+    println(hello2(nome))
+    println(soma(2,2))
 
     val frase = "Kotlin é um linguagem"
     val caract = "show!"
