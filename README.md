@@ -1,3 +1,3 @@
 # kotlin
 
-Repositório destinado ao aprendizado de Kotlin
+Repositório destinado ao aprendizado do básico de Kotlin
